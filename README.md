@@ -2,6 +2,11 @@
 
 Fuzzy Matching of PACS Data with HIS/RIS Data
 
+This project is a continuation of a paper presented by us at the European Congress of Radiology, 2019. 
+The video is available at: https://ecronline.myesr.org/ecr2019/index.php?p=recording&t=recorded&lecture=fuzzy-pacs-linking-large-unorganised-image-and-report-databases-for-development-and-validation-of-deep-learning-algorithms
+
+It is a well known problem that in many parts of the world, integration between PACS and RIS/HIS systems is sub-optimal - i.e. there is no unique linker between images and reports, making it very time consuming and labour intensive to pull either images or reports of a large group of patients. FuzzyPACS, a simple combination of multiple dicom tools and Fuzzy String Matching, enables a user to link images and reports using an approximate match between the name of the patient as entered in PACS (Mr. John Smith) and Report (John Smith).
+
 This project contains 2 scripts named script.py and match.py & Pynetdicom3 Module zip file
 
 Prerequisites:
@@ -14,6 +19,7 @@ Prerequisites:
 script.py: 
 
 This script helps to get data like (PatientName, StudyInstanceUID, StudyDescription, StudyDate etc.) from your PACS between specified date range as a csv file.
+
 1. Enter a name for the output csv file.
 	file = open('example.csv','w')
 2. Enter Date range in (YYYYMMDD) format.
