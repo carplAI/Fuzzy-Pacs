@@ -1,5 +1,7 @@
 # Fuzzy-Pacs
 
+Note: This is our first attempt at open-sourcing our work. All feedback is appreciated and significant effort would be put into incorporating it.
+
 Fuzzy Matching of PACS Data with HIS/RIS Data
 
 This project is a continuation of a paper presented by us at the European Congress of Radiology, 2019. 
